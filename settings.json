@@ -1,21 +1,21 @@
 {
-    "editor.tabSize": 2,
-    "editor.wordWrap": "on",
-    "editor.minimap.enabled": false,
-    "editor.formatOnSave": true,
-    "files.autoSave": "onWindowChange",
-    "explorer.confirmDelete": false,
-    "explorer.confirmDragAndDrop": false,
-    "window.title": "${dirty}${activeEditorMedium}${separator}${rootName}",
-    "window.zoomLevel": -1,
-    "workbench.iconTheme": "material-icon-theme",
-    "workbench.editor.enablePreview": false,
-    "workbench.startupEditor": "none",
-    "workbench.colorCustomizations": {
-        "statusBar.background": "#333333",
-        "statusBar.foreground": "#B6B6B6"
-    },
-    "code-runner.runInTerminal": true,
-    "javascript.updateImportsOnFileMove.enabled": "always",
-    "typescript.updateImportsOnFileMove.enabled": "always",
+  "editor.tabSize": 2,
+  "editor.wordWrap": "on",
+  "editor.minimap.enabled": false,
+  "editor.formatOnSave": true,
+  "files.autoSave": "onWindowChange",
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "window.title": "${dirty}${activeEditorMedium}${separator}${rootName}",
+  "window.zoomLevel": -1,
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.editor.enablePreview": false,
+  "workbench.startupEditor": "none",
+  "workbench.colorCustomizations": {
+      "statusBar.background": "#333333",
+      "statusBar.foreground": "#B6B6B6"
+  },
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "C_Cpp.clang_format_fallbackStyle": "{ BasedOnStyle: Google, IndentWidth: 2, ColumnLimit: 0 }"
 }
