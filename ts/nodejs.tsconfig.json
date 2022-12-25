@@ -23,9 +23,6 @@
     "baseUrl": "./src",
     "module": "CommonJS",
     "moduleResolution": "Node",
-    "paths": {
-      "path/*": ["path/*"]
-    },
     "resolveJsonModule": true,
     "rootDir": "./src",
     "typeRoots": ["./src/types", "./node_modules/@types"],
