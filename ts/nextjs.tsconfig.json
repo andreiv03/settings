@@ -24,12 +24,12 @@
     "module": "ESNext",
     "moduleResolution": "Node",
     "paths": {
-      "path/*": ["path/*"]
+      "@/*": ["./src/*"]
     },
     "resolveJsonModule": true,
     "rootDir": ".",
     "typeRoots": ["./types", "./node_modules/@types"],
-    
+
     "declaration": true,
     "noEmit": true,
     "preserveValueImports": true,
@@ -45,7 +45,7 @@
         "name": "next"
       }
     ],
-     
+
     "allowSyntheticDefaultImports": true,
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
@@ -56,9 +56,9 @@
     "target": "ES5",
 
     "incremental": true,
-    
-    "skipLibCheck": false
+
+    "skipLibCheck": true
   },
-  "exclude": ["./node_modules"],
+  "exclude": ["node_modules"],
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"]
 }
