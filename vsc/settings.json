@@ -1,44 +1,56 @@
 {
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "editor.formatOnSave": true,
-  "editor.insertSpaces": false,
-  "editor.minimap.enabled": false,
-  "editor.tabSize": 2,
-  "editor.wordWrap": "on",
-  "explorer.confirmDelete": false,
-  "explorer.confirmDragAndDrop": false,
-  "files.autoSave": "onWindowChange",
-  "terminal.integrated.enableMultiLinePasteWarning": false,
-  "window.title": "${dirty}${activeEditorMedium}${separator}${rootName}",
-  "window.zoomLevel": -1,
-  "workbench.colorCustomizations": {
-    "statusBar.background": "#333333",
-    "statusBar.foreground": "#B6B6B6"
-  },
-  "workbench.editor.enablePreview": false,
-  "workbench.iconTheme": "material-icon-theme",
-  "workbench.startupEditor": "none",
+	"editor.formatOnSave": true,
+	"editor.insertSpaces": false,
+	"editor.minimap.enabled": false,
+	"editor.tabSize": 2,
+	"editor.wordWrap": "on",
+	"explorer.confirmDelete": false,
+	"explorer.confirmDragAndDrop": false,
+	"files.autoSave": "onWindowChange",
+	"git.openRepositoryInParentFolders": "always",
+	"terminal.integrated.defaultProfile.windows": "Ubuntu (WSL)",
+	"terminal.integrated.enableMultiLinePasteWarning": false,
+	"window.title": "${dirty}${activeEditorMedium}${separator}${rootName}",
+	"window.zoomLevel": -1,
+	"workbench.colorCustomizations": {
+		"statusBar.background": "#3C3C3C",
+		"statusBar.foreground": "#CCCCCC"
+	},
+	"workbench.editor.enablePreview": false,
+	"workbench.iconTheme": "material-icon-theme",
+	"workbench.startupEditor": "none",
 
-  "prettier.arrowParens": "always",
-  "prettier.bracketSpacing": true,
-  "prettier.bracketSameLine": false,
-  "prettier.jsxSingleQuote": false,
-  "prettier.printWidth": 100,
-  "prettier.quoteProps": "as-needed",
-  "prettier.semi": true,
-  "prettier.singleAttributePerLine": true,
-  "prettier.singleQuote": false,
-  "prettier.trailingComma": "none",
-  "prettier.useTabs": false,
+	"javascript.updateImportsOnFileMove.enabled": "always",
+	"typescript.updateImportsOnFileMove.enabled": "always",
 
-  "javascript.updateImportsOnFileMove.enabled": "always",
-  "typescript.updateImportsOnFileMove.enabled": "always",
+	"prettier.arrowParens": "always",
+	"prettier.bracketSpacing": true,
+	"prettier.bracketSameLine": false,
+	"prettier.jsxSingleQuote": false,
+	"prettier.printWidth": 100,
+	"prettier.quoteProps": "as-needed",
+	"prettier.semi": true,
+	"prettier.singleAttributePerLine": true,
+	"prettier.singleQuote": false,
+	"prettier.tabWidth": 2,
+	"prettier.trailingComma": "none",
+	"prettier.useTabs": true,
 
-  "C_Cpp.clang_format_style": "{ BasedOnStyle: Google, ColumnLimit: 0, IndentWidth: 2, TabWidth: 2, UseTab: Always }",
-  "[c]": {
-    "editor.defaultFormatter": null
-  },
-  "[cpp]": {
-    "editor.defaultFormatter": null
-  }
+	"[html]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[css]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[scss]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[javascript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[typescript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+
+	"C_Cpp.clang_format_style": "{ BasedOnStyle: LLVM, ColumnLimit: 0, IncludeBlocks: Merge, IndentWidth: 2, PointerAlignment: Left, TabWidth: 2, UseTab: Always }"
 }
