@@ -13,7 +13,7 @@
 	"window.title": "${dirty}${activeEditorMedium}${separator}${rootName}",
 	"window.zoomLevel": -1,
 	"workbench.colorCustomizations": {
-		"statusBar.background": "#3C3C3C",
+		"statusBar.background": "#181818",
 		"statusBar.foreground": "#CCCCCC"
 	},
 	"workbench.editor.enablePreview": false,
