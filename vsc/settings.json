@@ -9,7 +9,6 @@
 	"explorer.confirmDragAndDrop": false,
 	"files.autoSave": "onFocusChange",
 	"git.openRepositoryInParentFolders": "always",
-	"terminal.integrated.defaultProfile.windows": "Ubuntu (WSL)",
 	"terminal.integrated.enableMultiLinePasteWarning": false,
 	"window.title": "${dirty}${activeEditorMedium}${separator}${rootName}",
 	"window.zoomLevel": -1,
@@ -59,6 +58,7 @@
 	"[typescriptreact]": {
 		"editor.defaultFormatter": "esbenp.prettier-vscode"
 	},
-
-	"C_Cpp.clang_format_style": "{ BasedOnStyle: LLVM, ColumnLimit: 0, IncludeBlocks: Merge, IndentWidth: 2, PointerAlignment: Left, TabWidth: 2, UseTab: Always }"
+	"[json]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	}
 }
